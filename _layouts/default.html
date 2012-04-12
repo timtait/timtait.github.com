@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>{{ page.title }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="{{ site.owner-name }}">  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+  <link type="text/css" rel="stylesheet" href="/css/html5reset-1.6.1.css">
+  <link type="text/css" rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Tim Tait</h1>
+    Blog pewpewpew
+  </header>
+  <h1>{{ page.title }}</h1>
+  <div class="content">
+    <article role="main">
+      {{ content }}
+    </article>
+    <aside role="complementary"></aside>
+  </div>
+
+  <footer role="contentinfo" class="clearfix">
+    <p>{{ site.license }} <a href="{{ site.owner-page }}">{{ site.owner-name}}</a></p>
+  </footer>
+</body>
+</html>
